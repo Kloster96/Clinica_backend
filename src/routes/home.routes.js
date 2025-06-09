@@ -6,9 +6,3 @@ rutaHome.get('/', home);
 
 
 module.exports = rutaHome;
-
-
-
-
-
-

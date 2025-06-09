@@ -4,7 +4,7 @@
         <input type="hidden" name="id" value="<%= turno.id %>">
 
         <label for="paciente">Paciente:</label>
-        <select name="paciente" id="paciente" required>
+        <select name="pacienteId" id="pacienteId" required>
             <% pacientes.forEach(paciente => { %>
                 <option value="<%= paciente.id %>" <%= paciente.id === turno.paciente ? 'selected' : '' %> >
                     <%= paciente.nombre %> <%= paciente.apellido %>
